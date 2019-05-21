@@ -4,6 +4,7 @@ auth-plug
 [![Build Status][travis-badge]][travis]
 [![Go Report Card][goreport-badge]][goreport]
 [![Test Coverage][coverage]][codeclimate]
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmjslabs%2Fauth-plug.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmjslabs%2Fauth-plug?ref=badge_shield)
 
 [travis-badge]: https://travis-ci.org/mjslabs/auth-plug.svg?branch=master
 [travis]: https://travis-ci.org/mjslabs/auth-plug
@@ -127,3 +128,7 @@ auth-plug only does authentication, **not** authorization. Future versions will 
 A standard use-case for auth-plug is running on localhost with the LDAP server and nginx. Full TLS support is yet to be implemented.
 
 [go-ldap-client](https://github.com/jtblin/go-ldap-client) is used for the LDAP work. This library seems to be abandoned and should be changed out for something that is actively maintained.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmjslabs%2Fauth-plug.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmjslabs%2Fauth-plug?ref=badge_large)
